@@ -1,0 +1,11 @@
+.title {
+  margin-top: 40px;
+}
+.link {
+  text-decoration: underline;
+  color: rgb(57, 19, 110);
+}
+.link:hover,
+.link:focus {
+  color: rgb(64, 130, 188);
+}

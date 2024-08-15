@@ -1,0 +1,26 @@
+.form {
+  margin-top: 30px;
+}
+
+.input {
+  width: 220px;
+  height: 30px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border-color: rgb(57, 19, 110);
+  margin-right: 15px;
+}
+
+.btn {
+  align-items: center;
+  color: #a9c0d7;
+  background-color: rgb(57, 19, 110);
+  transition: background-color 200ms linear;
+  outline: transparent;
+  padding: 4px 6px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(64, 130, 188);
+  color: #151617;
+}
