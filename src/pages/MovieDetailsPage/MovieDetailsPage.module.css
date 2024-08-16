@@ -9,3 +9,12 @@
 .link:focus {
   color: rgb(64, 130, 188);
 }
+.text {
+  margin-top: 40px;
+  color: rgb(57, 19, 110);
+  text-decoration: underline;
+}
+.text:hover,
+.text:focus {
+  color: rgb(64, 130, 188);
+}

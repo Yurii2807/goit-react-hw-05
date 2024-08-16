@@ -29,7 +29,9 @@ const MovieDetailsPage = () => {
   return (
     <div>
       <p>
-        <Link to={backLink.current}>Go back</Link>
+        <Link className={css.text} to={backLink.current}>
+          Go back
+        </Link>
       </p>
       {isLoader && <Loader />}
       {movie && <MovieInfo movie={movie} />}
